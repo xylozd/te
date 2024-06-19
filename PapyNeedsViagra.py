@@ -673,6 +673,7 @@ def hea3():
     return hea
 
 hityaz=0
+
 def hit(mac,trh,real,m3ulink,durum,vpn,livelist,vodlist,serieslist,playerapi):
     global hitr
     global hityaz
@@ -690,6 +691,9 @@ def hit(mac,trh,real,m3ulink,durum,vpn,livelist,vodlist,serieslist,playerapi):
 ⍟ ◉○🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜○◉   
 ✫ Gᴇᴛ 💋💋💋💋💋💋 ᴘʏ
 ⍟  [🦆🦢🦆🦢🦆🦢 🦋🦋 🦆🦢🦆🦢🦆🦢 ]
+
+sifre=device(mac)
+
 """
         if kanalkata=="1" or kanalkata=="2":
             imza=imza+"""
@@ -710,6 +714,27 @@ def hit(mac,trh,real,m3ulink,durum,vpn,livelist,vodlist,serieslist,playerapi):
 cpm=0
 cpmx=0
 hitr="\33[1;33m"
+
+def device(mac):
+	mac=mac.upper()
+	SN=(hashlib.md5(mac.encode('utf-8')).hexdigest())
+	SNENC=SN.upper() #SN
+	SNCUT=SNENC[:13]#Sncut
+	DEV=hashlib.sha256(mac.encode('utf-8')).hexdigest()
+	DEVENC=DEV.upper() #dev1
+	DEV1=hashlib.sha256(SNCUT.encode('utf-8')).hexdigest()
+	DEVENC1=DEV1.upper()#dev2
+	SG=SNCUT+'+'+(mac)
+	SING=(hashlib.sha256(SG.encode('utf-8')).hexdigest())
+	SINGENC=SING.upper()
+	sifre="""
+╠☞ ғᴜʟʟsᴇʀɪᴀʟ: """ +SN+"""   
+╠☞ sᴇʀɪᴀʟ ɴᴜᴍʙᴇʀ: """ +SNCUT+"""
+╠☞ ɪᴅ1: """ +DEVENC+"""
+╠☞ ɪᴅ2: """ +DEVENC1+"""
+╠☞ sɪɢɴᴀᴛᴜʀᴇ: """ +SINGENC+"""
+╚════════☰ """
+	return sifre
 
 
 
