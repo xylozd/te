@@ -330,7 +330,7 @@ print(TrainAgain)
 pattern= "(\w{2}:\w{2}:\w{2}:\w{2}:\w{2}:\w{2})"
 import os
 #print(TrainAgain)
-nickn= "💠GET⍟UP!💠"
+nickn= "💠XYLOZD💠"
 
 uzmanm=input("""
     1=⫸ portal.php  
@@ -352,7 +352,7 @@ uzmanm="portal.php"
 useragent="okhttp/4.7.1"
 
 if  panel=="0":
-    uzmanm=input('Yazınız=')
+    uzmanm=input('Write=')
     useragent="Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 4 rev: 2721 Mobile Safari/533.3" 
     #subprocess.run(["clear", ""])
     print(TrainAgain) 
@@ -371,7 +371,7 @@ if panel=="2":
     print(TrainAgain) 
     panel = input(a)
     #if uzmanm=="0":
-        #isimle=input("Şekili nickinizi veya telegram nickinizi yazın\n  Nick=")
+        #isimle=input("Type your nickname or telegram nickname in the form\n  Nick=")
 realblue=""
 if panel=="4":
     realblue="real"
@@ -497,11 +497,11 @@ botsay=int(botsay)
 
 kanalkata="0"
 kanalkata=input("""\33[1;40m
-O que queres mostrar nos hits?
+O que queres mostrar nos hits? (What do you want to show in the hits?)
 
-    0=⫸ Dados da conexao apenas 
-\t1=⫸ Apenas canais
-\t2=⫸ Mostrar tudo
+    0=⫸ Dados da conexao apenas (Connection data only)
+\t1=⫸ Apenas canais (Channels only)
+\t2=⫸ Mostrar tudo ( Show all)
 
 \33[1mOpcao: """)
 if kanalkata=="":
@@ -679,7 +679,7 @@ def hit(mac,trh,real,m3ulink,durum,vpn,livelist,vodlist,serieslist,playerapi):
     try:
         imza="""
 
-==❪❪ https://t.me/MALAYALAMIPTV1_0 ❫❫==
+==❪❪ 🦆🦢🦆🦢🦆🦢🦆🦢🦆🦢🦆🦢🦆🦢🦆🦢🦆🦢 ❫❫==
 ⍟ Real - """+str(real)+"""
 ⍟ Painel - http://"""+str(panel)+"""/c/
 ⍟ https://t.me/MALAYALAMIPTV1_0 - """+str(mac)+"""
@@ -689,15 +689,15 @@ def hit(mac,trh,real,m3ulink,durum,vpn,livelist,vodlist,serieslist,playerapi):
 ⍟ 𝗛𝗶𝘁𝘀 ʙʏ """+str(nickn)+"""
 ⍟ ◉○🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜○◉   
 ✫ Gᴇᴛ 💋💋💋💋💋💋 ᴘʏ
-⍟  [🦆🦢🦆🦢🦆🦢 https://t.me/MALAYALAMIPTV1_0🦋🦋 ]
+⍟  [🦆🦢🦆🦢🦆🦢 🦋🦋 🦆🦢🦆🦢🦆🦢 ]
 """
         if kanalkata=="1" or kanalkata=="2":
             imza=imza+"""
- https://t.me/MALAYALAMIPTV1_0 - """+str(livelist)+""" """
+ 💋💋💋LIVE LIST - """+str(livelist)+""" """
         if kanalkata=="2":
             imza=imza+"""
- https://t.me/MALAYALAMIPTV1_0 - """+str(vodlist)+"""
- https://t.me/MALAYALAMIPTV1_0 - """+str(serieslist)+"""
+ 💋💋💋 VOD LIST - """+str(vodlist)+"""
+ 💋💋💋 SERIES LIST - """+str(serieslist)+"""
 
 """
         yax(imza)
@@ -727,7 +727,7 @@ def echok(mac,bot,total,hitc,oran,tokenr):
             cpm=cpmx
         echo=("""
 
-\033[94m╔═❪❪ https://t.me/MALAYALAMIPTV1_0 ❫❫═⦿    
+\033[94m╔═❪❪ 💋💋💋 ❫❫═⦿    
 \033[94m║ \33[1;4;37mmacLink \33[0m\33[1;7m ➢ """+str(panel)+"""  \33[0m 
 \033[94m║ """+tokenr+str(mac)+"""  \33[0m\33[94mCPM ➢ """+str(cpm)+"""  \33[0m
 \033[94m╚═⦿ \33[1;32m"""  +str(bot)+""" \33[36m Total ➢ """+str(total)+""" \33[0m """+str(hitr)+"""Hit ➢ """ +str(hitc)+"""  \33[0m\33[1;31m%"""+str(oran)+"""  \33[0m""")
